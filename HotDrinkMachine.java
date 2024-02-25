@@ -1,10 +1,14 @@
 
-public class HotDrinkMachine 
+public class HotDrinkMachine extends HotDrink
 {
     //private List<HotDrink> drinks;
     private HotDrink[] drinks;
     private Drink[] cdrinks;
     
+    public HotDrinkMachine()
+    {
+
+    }
     
     
     public void InitDrinks(HotDrink[] drinks)

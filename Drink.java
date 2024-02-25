@@ -10,7 +10,11 @@ public class Drink
         this.volume=volume;
     }
 
-    // Методы для доступа к приватным полям
+    public Drink()
+    {
+
+    }
+
     public String getName() {
         return name;
     }
@@ -19,12 +23,11 @@ public class Drink
         return price;
     }
 
-    // Общие методы для всех животных
     public int getVolume() {
         return volume;
     }
 
-    public void getDrink() 
+    public void getAvailableDrinks() 
     {
         System.out.println("Your selection is: "+name+", price: "+price+", volume: "+ volume+" ml.,");
 
